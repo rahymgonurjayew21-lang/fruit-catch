@@ -187,7 +187,7 @@ function tick(now){
     o.y=-70+t*(h+100);
 
     o.el.style.top = o.y + "px";
-    el.style.transform = `rotate(${Math.sin(t*10)*8}deg)`;
+    o.el.style.transform = `rotate(${Math.sin(t*10)*8}deg)`;
 
     // Камуфляжная бомба раскрывается на невидимой горизонтальной линии.
     if(o.o.hidden&&t>=HIDDEN_LINE){
