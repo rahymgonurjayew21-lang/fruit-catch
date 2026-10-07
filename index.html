@@ -1,0 +1,9 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><title>Fruit Catch</title><script src="https://telegram.org/js/telegram-web-app.js"></script><script src="https://sad.adsgram.ai/js/sad.min.js"></script><link rel="stylesheet" href="style.css"></head><body>
+<div id="app">
+<section id="home" class="screen active"><div class="logo">🍓 FRUIT CATCH</div><div class="card"><div class="label">ОБЩИЙ СЧЁТ</div><div id="totalScore" class="big">0</div><div id="usd" class="usd">≈ $0.00</div></div>
+<div class="ad-card"><div class="ad-label">РЕКЛАМА</div><adsgram-task data-block-id="task-52383" data-debug="true" data-debug-console="false" class="task-ad"></adsgram-task></div>
+<div class="reward-card"><div class="reward-title">🎁 БОНУС ЗА РЕКЛАМУ</div><div id="rewardProgress">0/5</div><div class="reward-note">5 полных просмотров → +10 000 очков. Не чаще 1 раза в день.</div><button id="rewardAd" class="primary reward-button">📺 СМОТРЕТЬ РЕКЛАМУ</button><div id="rewardInfo" class="hint"></div></div>
+<button id="startHome" class="primary">▶ НАЧАТЬ ИГРУ</button><button id="withdraw" class="secondary">💸 ВЫВЕСТИ</button><div id="withdrawInfo" class="hint"></div></section>
+<section id="game" class="screen"><div class="hud"><span>Общий счёт: <b id="gameTotal">0</b></span><b>🎯 <span id="roundScore">0</span></b></div><div id="field"></div><button id="endGame" class="end">⏹ ЗАКОНЧИТЬ ИГРУ</button></section>
+<section id="result" class="screen"><div class="card result"><div>🎉 ИГРА ОКОНЧЕНА</div><div id="earned" class="big">+0</div><div>очков заработано</div><div id="earnedUsd" class="usd">≈ $0.00</div><button id="again" class="primary">▶ ИГРАТЬ СНОВА</button><button id="homeAgain" class="secondary">⌂ ГЛАВНЫЙ ЭКРАН</button></div></section>
+</div><script src="game.js"></script></body></html>
